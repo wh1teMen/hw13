@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <h3>Поиск книги:</h3>
+    <form action="#" name="formSearch" class="formBox" id="formS">
+        <div class="titleBox">
+            <label for="title">Название:</label>
+            <input placeholder="введите название книги" type="text" name="title" id="titleBook">
+        </div>
+        <div class="btn">
+            <button type="submit" id="btnSearch">Поиск</button>
+            <button type="submit" id="btnAnnotation">Аннотация</button>
+        </div>
+    </form>
+    <h4 class="status"></h4>
+    <div class="AnnotatonBox" id="annota">
+        <p id="anoText"></p>
+    </div>
+    <script src="scripts/main.js" type="module"></script>
+</body>
+
+</html>

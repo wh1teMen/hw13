@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+h3 {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.formBox {
+    border: 3px solid black;
+    width: 350px;
+    height: 130px;
+    border-radius: 20px;
+    margin-top: 20px;
+
+
+}
+
+.titleBox {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    font-weight: bold;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+#btnSearch {
+    margin-left: 20px;
+    width: 100px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#btnAnnotation {
+    margin-right: 20px;
+    width: 200px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.status {
+    margin: 15px;
+}
+
+.AnnotatonBox {
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 500px;
+    min-height: 300px;
+    word-break: break-all;
+    padding: 10px;
+    display: none;
+
+}
